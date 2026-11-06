@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+
+header {
+    background: #1e3a8a;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.cartao {
+    background: #fff;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+.cartao h2 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+}
+
+.cartao p {
+    margin: 0;
+}
+
+footer {
+    background: #1e3a8a;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}

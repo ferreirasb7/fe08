@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.cartao {
+    flex: 1 1 220px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+.cartao h2 {
+    margin-bottom: 10px;
+}

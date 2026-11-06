@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.cartao {
+    background-color: lightblue;
+    padding: 30px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cartao h2 {
+    margin-bottom: 10px;
+}
+
+/* Telas a partir de 600px */
+@media (min-width: 600px) {
+    .grade {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Telas a partir de 1000px */
+@media (min-width: 1000px) {
+    .grade {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
