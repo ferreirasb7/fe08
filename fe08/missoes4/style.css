@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    max-width: 350px;
+    margin: 30px auto;
+}
+
+.cartao h3 {
+    color: #333;
+}
+
+.cartao p {
+    color: #666;
+}
+
+.cartao button {
+    margin-top: auto;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
